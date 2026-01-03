@@ -61,6 +61,13 @@
       border-bottom: 1px solid rgba(166, 139, 124, 0.2);
     }
 
+    .price-item small {
+      color: #8a7a6e;
+      font-weight: 300;
+      font-size: 0.9em;
+      margin-left: 6px;
+    }
+
     input[type="text"], input[type="tel"], input[type="datetime-local"] {
       width: 100%;
       padding: 15px;
@@ -140,12 +147,12 @@
 <div class="container">
   <div class="card" style="animation-delay: 0.2s;">
     <h2>Услуги и цены</h2>
-    <div class="price-item"><span>Классика</span> <b>1600 ₽</b></div>
-    <div class="price-item"><span>Объем 2D</span> <b>1800 ₽</b></div>
-    <div class="price-item"><span>Объем 3D</span> <b>1900 ₽</b></div>
-    <div class="price-item"><span>Объем 4–5D</span> <b>2300 ₽</b></div>
-    <div class="price-item"><span>LED-наращивание</span> <b>+300 ₽</b></div>
-    <div class="price-item" style="border:none"><span>Снятие чужой работы</span> <b>300 ₽</b></div>
+    <div class="price-item"><span>Классика <small>(1.5–2&nbsp;ч)</small></span> <b>1600 ₽</b></div>
+    <div class="price-item"><span>Объем 2D <small>(1.5–2&nbsp;ч)</small></span> <b>1800 ₽</b></div>
+    <div class="price-item"><span>Объем 3D <small>(1.5–2&nbsp;ч)</small></span> <b>1900 ₽</b></div>
+    <div class="price-item"><span>Объем 4–5D <small>(1.5–2&nbsp;ч)</small></span> <b>2300 ₽</b></div>
+    <div class="price-item"><span>LED-наращивание <small>(1.5–2&nbsp;ч)</small></span> <b>+300 ₽</b></div>
+    <div class="price-item" style="border:none"><span>Снятие чужой работы <small>(15&nbsp;мин)</small></span> <b>300 ₽</b></div>
   </div>
 
   <div class="card" style="animation-delay: 0.4s;">
@@ -160,7 +167,7 @@
         <label class="service-option"><input type="checkbox" name="service" value="2D"> 2D объем</label>
         <label class="service-option"><input type="checkbox" name="service" value="3D"> 3D объем</label>
         <label class="service-option"><input type="checkbox" name="service" value="4-5D"> 4-5D объем</label>
-        <label class="service-option"><input type="checkbox" name="service" value="LED"> LED эффект</label>
+        <label class="service-option"><input type="checkbox" name="service" value="LED"> LED наращивание</label>
         <label class="service-option"><input type="checkbox" name="service" value="Снятие"> Снятие работы</label>
       </div>
 
